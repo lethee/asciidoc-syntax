@@ -1,0 +1,24 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: AsciiDoc
+scopeName: text.asciidoc
+fileTypes: ["asc"]
+uuid: c0e22e51-402f-4acc-8d35-c4ba83fe7291
+
+patterns:
+- name: keyword.other.header
+  match: ^={2,6}\s.+$\n?
+- name: variable.ref
+  match: ^\(\(\(.*\)\)\)$
+- name: variable.ref
+  match: \<\<.+?\>\>
+- name: keyword.braket
+  match: ^\[.*\]$
+- name: constant.doublequote
+  match: \`\`.+?\'\'
+- name: constant.quote
+  match: \`.+?\`
+- name: comment.complex.source
+  begin: ^----$
+  end: ^----$\n?
+...

@@ -1,0 +1,7 @@
+# [PackageDev] target_format: plist, ext: tmPreferences
+name: Symbol List Function
+uuid: c0e22e51-402f-4acc-8d35-c4ba83fe7292
+scope: keyword.other.header
+settings:
+  showInSymbolList: '1'
+  symbolTransformation: s/=+//g

@@ -22,6 +22,6 @@ patterns:
   begin: ^----$
   end: ^----$\n?
 - name: comment.complex.source
-  begin: ^//////////////////////////$
-  end: ^//////////////////////////$
+  begin: ^//////+$
+  end: ^//////+$
 ...
